@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:299px){
+    .colourchanging{
+        width: 250px;
+        height: 250px;
+        background-color: green;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 399px){
+    .colourchanging{
+        width: 350px;
+        height: 350px;
+        background-color: pink;
+    }
+}
+
+@media(min-width : 400px) and (max-width : 599px){
+    .colourchanging{
+        width: 500px;
+        height: 500px;
+        background-color: red;
+    }
+}
+@media(min-width : 600px){
+    .colourchanging{
+        width: 700px;
+        height: 700px;
+        background-color: blue;
+    }
+}

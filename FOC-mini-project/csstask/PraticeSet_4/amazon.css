@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  height: 60px;
+  background-color: #0f1111;
+}
+.logo {
+  font-size: 25px;
+  color: rgb(213, 143, 14);
+  margin-top: 5px;
+}
+.element {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.search {
+  margin-top: 10px;
+}
+input {
+  outline: none;
+}
+button {
+  color: white;
+  background-color: #f08804;
+}
+.header {
+  margin-bottom: 0;
+}
+.headerimg {
+  width: 100%;
+  filter: brightness(110%) contrast(120%) saturate(110%);
+  object-fit: cover;
+  display: block;
+}
+.contentArea {
+  background-color: #0f1111;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  gap: 10px;
+  height: 400px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 100 x 100 box in content section */
+.bodycontent {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dotted white;
+  border-radius: 10px;
+}
+#box1 {
+  background-color: #f08804;
+  opacity: 0.5;
+}
+#box2 {
+  background-color: #f4a43c;
+  opacity: 0.5;
+}
+#box3 {
+  background-color: #a0671c;
+  opacity: 0.5;
+}
+.specs {
+  color: white;
+  margin-left: 5px;
+}
+.number {
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+  background-color: #f08804;
+}
+.footercontent {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footertext {
+  color: white;
+}

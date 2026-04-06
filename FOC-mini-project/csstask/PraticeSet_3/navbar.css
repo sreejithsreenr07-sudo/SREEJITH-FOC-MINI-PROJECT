@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  height: 60px;
+  background-color: #0f1111;
+}
+.logo {
+  font-size: 25px;
+  color: rgb(213, 143, 14);
+  margin-top: 5px;
+}
+.element {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.search {
+  margin-top: 10px;
+}
+button {
+  color: white;
+  background-color: #f08804;
+}

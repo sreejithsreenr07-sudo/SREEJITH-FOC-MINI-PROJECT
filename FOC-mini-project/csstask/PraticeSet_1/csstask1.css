@@ -1,0 +1,21 @@
+body {
+  font-family: helvetica;
+}
+
+#box1 {
+  background-color: blue;
+  height: 250px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  color: aliceblue;
+  margin: 10px;
+  text-align: justify;
+}
+.heading {
+  color: red;
+}
+.inexternal{
+    background-color: green;
+}
